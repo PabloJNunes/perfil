@@ -46,9 +46,12 @@
                         <a href="#page-top"></a>
                     </li>
 
-
                     <li>
                         <a class="page-scroll" href="#aluno">Aluno</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#contato">Contato</a>
                     </li>
 
                 </ul>
@@ -68,19 +71,18 @@
         </div>
     </header>
 
-
-
     <section id="aluno" class="bg-steel-blue">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading text-white">Aluno</h2>
+                    <hr class="ligth">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/pablo.png" class="img-responsive img-circle">
+                        <img src="img/pablo.png" class="img-responsive img-circle circle">
                         <h4 class="text-white">Pablo Jorge de Lima Nunes</h4>
                         <p class="text white">Graduando em Engenharia Mecatrônica - UNIFACS</p>
                     </div>
@@ -97,16 +99,51 @@
         </div>
     </section>
 
+    <section id="contato" class="bg-steel-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h3 class="text- section-heading">contato</h3>
+            <hr class="ligth">
+          </div>
+          <div class="col-sm-12 text-center">
+            <form>
+              <p>
+                <label for="nomeDigitado">Nome:</label>
+                <input class="form-control" type="text" id="nomeDigitado">
+              </p>
+              <p>
+                <label for="emailDigitado">E-mail:</label>
+                <input class="form-control" type="email" id="emailDigitado">
+              </p>
+              <p>
+                <label for="mensagemDigitada">Mensagem:</label>
+                <textarea class="form-control" id="mensagemDigitada"></textarea>
+              </p>
+              <p>
+                <input class="btn btn-primary" onclick="send()" type="submit" value="Enviar">
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
         <div class="container">
             <div class="row">
-              <span class="copyright">Desenvolvimento Web : HTML5/ CSS3 / JS -  2018 - Curso Idealizado por Víctor Romário
-                <p>Aluno: Pablo Nunes.</p>
+              <span class="copyright">Curso Desenvolvimento Web : HTML5/ CSS3 / JS -  2018
+                <p> Ministrante: Víctor Romário </p>
+                <p> Aluno: Pablo Nunes </p>
                 <p> <i class="fa fa-heart"></i></p>
               </span>
             </div>
         </div>
     </footer>
+
+    <script src="js/archive.js">
+
+    </script>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -122,11 +159,11 @@
 
     <p>
       <div align="center">
-        <a target="_blank" href="https://www.instagram.com/anublen_ps/"> <img src="img/instagram.png"  width="25" height="25" /> </a>
-        <a target="_blank" href=""> <img src="img/facebook.png"  width="25" height="25" /> </a>
-        <a target="_blank" href="https://br.pinterest.com/pablonunes9250/"> <img src="img/pinterest.png"  width="25" height="25" /> </a>
-        <a target="_blank" href="https://twitter.com/anublen_ps"> <img src="img/twitter.png"  width="25" height="25" /> </a>
-        <a target="_blank" href="https://www.youtube.com/channel/UCElSXNqGpviw17j-Me8qlGg?view_as=subscriber"> <img src="img/youtube.png"  width="25" height="25" /> </a>
+        <a target="_blank" href="https://www.instagram.com/anublen_ps/"> <img src="img/instagram.png"  class="image" width="25" height="25" /> </a>
+        <a target="_blank" href=""> <img src="img/facebook.png"  class="image" width="25" height="25" /> </a>
+        <a target="_blank" href="https://br.pinterest.com/pablonunes9250/"> <img src="img/pinterest.png"  class="image" width="25" height="25" /> </a>
+        <a target="_blank" href="https://twitter.com/anublen_ps"> <img src="img/twitter.png"  class="image" width="25" height="25" /> </a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCElSXNqGpviw17j-Me8qlGg?view_as=subscriber"> <img src="img/youtube.png"  class="image" width="25" height="25" /> </a>
       </div>
     </p>
 
